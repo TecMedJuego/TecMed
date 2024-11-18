@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: Analitos
+  m_EditorClassIdentifier: 
+  examName: Analitos en orina
+  examDescription: "La determinaci\xF3n de analitos permite la identificaci\xF3n
+    y cuantificaci\xF3n de diversas sustancias qu\xEDmicas en muestras biol\xF3gicas
+    y ambientales. No hay requerimientos previos a la toma de muestra."
+  conditions:
+    food: -1
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 0
+  reward: 8000
+  cost: 12000
+  reputation: 1
+  requiredItems:
+  - {fileID: 11400000, guid: 49d4aa5e9ec327f4f86d540f58356362, type: 2}

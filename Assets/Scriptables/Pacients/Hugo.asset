@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcf87809396dda45b6260a1467cc00a, type: 3}
+  m_Name: Hugo
+  m_EditorClassIdentifier: 
+  personalInfo:
+    gender: 0
+    name: Hugo
+    lastName: Puebla
+    age: 3
+    rut: 8.973.199-1
+  conditions:
+    food: 7
+    exercise: 1
+    smoke: 15
+    drink: 15
+    sex: 0
+    medication: 2
+    consent: 0
+  sprites: {fileID: 7108339969198208228, guid: 4c43f43ed14881e40b0da5ef701e38fd, type: 3}
+  exam: {fileID: 11400000, guid: 87fcf55aa3ba5f24f93e4c2b48090567, type: 2}

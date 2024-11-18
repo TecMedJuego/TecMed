@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: PerfilBioquimico
+  m_EditorClassIdentifier: 
+  examName: Perfil bioquimico
+  examDescription: "El perfil bioqu\xEDmico es un examen de sangre que permite medir
+    distintos par\xE1metros sobre el funcionamiento de algunos \xF3rganos, como el
+    h\xEDgado y ri\xF1ones, adem\xE1s del metabolismo de prote\xEDnas, l\xEDpidos,
+    colesterol y glucosa. Se requiere un ayuno de 12 horas."
+  conditions:
+    food: 12
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 0
+  reward: 30000
+  cost: 50000
+  reputation: 1
+  requiredItems:
+  - {fileID: 11400000, guid: 6cb2733f904c55d45a7b58d3a432c030, type: 2}
+  - {fileID: 11400000, guid: f26fe22565c2ca34891cbb53d9f71219, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}

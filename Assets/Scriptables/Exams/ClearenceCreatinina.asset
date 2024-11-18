@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: ClearenceCreatinina
+  m_EditorClassIdentifier: 
+  examName: Clearence de creatinina
+  examDescription: "Este examen se realiza para ayudar a detectar y evaluar una enfermedad
+    renal o una disminuci\xF3n del aporte de sangre a los ri\xF1ones. Este examen
+    compara el nivel de creatinina en la orina con el nivel de creatinina en la sangre
+    y no requiere ning\xFAn tipo de preparaci\xF3n previa."
+  conditions:
+    food: -1
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 0
+  reward: 30000
+  cost: 50000
+  reputation: 1
+  requiredItems:
+  - {fileID: 11400000, guid: f26fe22565c2ca34891cbb53d9f71219, type: 2}
+  - {fileID: 11400000, guid: 49d4aa5e9ec327f4f86d540f58356362, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}

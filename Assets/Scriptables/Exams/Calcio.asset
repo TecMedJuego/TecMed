@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: Calcio
+  m_EditorClassIdentifier: 
+  examName: Prueba de calcio en la sangre
+  examDescription: "El calcio es uno de los minerales m\xE1s importantes del cuerpo.
+    Es necesario tener la cantidad adecuada de calcio en la sangre para el buen funcionamiento
+    de los nervios, los m\xFAsculos y el coraz\xF3n. Si hay demasiado o muy poco
+    calcio en la sangre, puede ser un signo de una amplia variedad de afecciones
+    m\xE9dicas, como enfermedad \xF3sea, enfermedad de la tiroides, enfermedades
+    de las paratiroides, enfermedad de los ri\xF1ones y otras afecciones. Sin condiciones
+    requeridas del paciente."
+  conditions:
+    food: -1
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 0
+  reward: 15000
+  cost: 26000
+  reputation: 2
+  requiredItems:
+  - {fileID: 11400000, guid: e3df6f80fb9acec4d976de3c03ed3745, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}

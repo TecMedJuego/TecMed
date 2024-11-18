@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: Glicemia
+  m_EditorClassIdentifier: 
+  examName: Examen de glicemia
+  examDescription: "Examen de az\xFAcar en sangre mide la cantidad de un az\xFAcar
+    llamado glucosa en una muestra de sangre. Habitualmente, cuando se desea descartar
+    una diabetes, el especialista tratante solicita un examen de glicemia, el que
+    consiste en una toma de sangre, generalmente matinal. Se requieren 8 horas de
+    ayuno previas al examen."
+  conditions:
+    food: 8
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 0
+  reward: 18000
+  cost: 32000
+  reputation: 1
+  requiredItems:
+  - {fileID: 11400000, guid: 6cb2733f904c55d45a7b58d3a432c030, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}

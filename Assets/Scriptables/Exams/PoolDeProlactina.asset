@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: PoolDeProlactina
+  m_EditorClassIdentifier: 
+  examName: Pool de prolactina
+  examDescription: "prueba que se utiliza para evaluar los niveles en sangre de la
+    PROLACTINA. Se recomienda cuando no se produce la menstruaci\xF3n y/o en casos
+    de infertilidad. Tambi\xE9n se utiliza en la detecci\xF3n y monitorizaci\xF3n
+    de tumores hipofisarios productores de prolactina (prolactinomas). Sin actividad
+    sexual en las \xFAltimas 24 horas.\r\r\n"
+  conditions:
+    food: -1
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 1
+    medication: 4
+    consent: 0
+  reward: 14000
+  cost: 26000
+  reputation: 1
+  requiredItems:
+  - {fileID: 11400000, guid: f26fe22565c2ca34891cbb53d9f71219, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}

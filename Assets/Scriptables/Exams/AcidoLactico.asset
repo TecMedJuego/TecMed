@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: AcidoLactico
+  m_EditorClassIdentifier: 
+  examName: "Examen del \xE1cido l\xE1ctico"
+  examDescription: "El \xE1cido l\xE1ctico se produce principalmente en las c\xE9lulas
+    musculares y en los gl\xF3bulos rojos. Dicho \xE1cido se forma cuando el cuerpo
+    descompone carbohidratos para utilizarlos como energ\xEDa cuando los niveles
+    de ox\xEDgeno son bajos. El examen requiere un ayuno de 8 horas y abstentci\xF3n
+    de ejercicio f\xEDsico por 12 horas."
+  conditions:
+    food: 8
+    exercise: 1
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 0
+  reward: 10000
+  cost: 30000
+  reputation: 2
+  requiredItems:
+  - {fileID: 11400000, guid: 6cb2733f904c55d45a7b58d3a432c030, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}

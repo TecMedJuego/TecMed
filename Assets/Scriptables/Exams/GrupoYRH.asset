@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: GrupoYRH
+  m_EditorClassIdentifier: 
+  examName: "Determinaci\xF3n de grupo sanguineo y RH"
+  examDescription: "Es un m\xE9todo para indicar el tipo de sangre y factor RH. La
+    determinaci\xF3n del grupo sangu\xEDneo se realiza para determinar si el paciente
+    puede donar sangre o recibir una transfusi\xF3n de sangre de manera segura. Tambi\xE9n
+    se realiza para determinar si contiene una sustancia llamada factor Rh en la
+    superficie de sus gl\xF3bulos rojos. Se puede realizar sin requisitos previos."
+  conditions:
+    food: -1
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 0
+  reward: 28000
+  cost: 41000
+  reputation: 1
+  requiredItems:
+  - {fileID: 11400000, guid: 964914a8414097c4e94f2fe438141491, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}

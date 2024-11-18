@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9793d8cbb182e4e9d5656f14b932fb, type: 3}
+  m_Name: VIH
+  m_EditorClassIdentifier: 
+  examName: Examen VIH
+  examDescription: "Una prueba de VIH analiza una muestra de su sangre para ver si
+    ha sido infectado con VIH (virus de la inmunodeficiencia humana). El VIH es un
+    virus destruye ciertas c\xE9lulas de su sistema inmunitario. Estas c\xE9lulas
+    protegen al cuerpo contra enfermedades causadas por g\xE9rmenes, como bacterias,
+    virus y hongos. Se requiere consentimiento informado antes de proceder con el
+    examen."
+  conditions:
+    food: -1
+    exercise: 0
+    smoke: -1
+    drink: -1
+    sex: 0
+    medication: 4
+    consent: 1
+  reward: 20000
+  cost: 22000
+  reputation: 2
+  requiredItems:
+  - {fileID: 11400000, guid: f26fe22565c2ca34891cbb53d9f71219, type: 2}
+  - {fileID: 11400000, guid: f53eda0cf1e808043a17016cf59bcf99, type: 2}
+  - {fileID: 11400000, guid: 6593d93381f900f48adcb95a6087ffa5, type: 2}
